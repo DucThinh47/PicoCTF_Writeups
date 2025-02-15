@@ -34,6 +34,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Java Code Analysis!?!](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Java_Code_Analysis.md)
 
-- [Local Authority]()
+- [Local Authority](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Local_Authority.md)
 
 ### Reversing
