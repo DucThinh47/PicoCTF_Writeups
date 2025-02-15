@@ -12,4 +12,6 @@
 
 - [Client-side-again](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Client_side_again.md)
 
+- [Cookies](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Cookies.md)
+
 ### Reversing
