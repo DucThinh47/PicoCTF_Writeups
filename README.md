@@ -40,6 +40,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [More Cookies](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/More_Cookies.md)
 
-- [More SQLi]()
+- [More SQLi](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/More_SQLi.md)
 
 ### Reversing
