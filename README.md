@@ -18,4 +18,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Forbidden Paths](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Forbidden_Paths.md)
 
+- [GET aHEAD]()
+
 ### Reversing
