@@ -1,5 +1,7 @@
 # PicoCTF_Writeups
 
+Tập trung giải các thử thách liên quan đến Web exploitation và Reversing trên PicoCTF.
+
 ## Content Page
 
 - [Web exploitation](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main#web-exploitation)
