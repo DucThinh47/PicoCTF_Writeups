@@ -78,6 +78,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [picobrowser](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/picobrowser.md)
 
-- [some assembly required 1]()
+- [some assembly required 1](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/some_assembly_required_1.md)
 
 ### Reversing
