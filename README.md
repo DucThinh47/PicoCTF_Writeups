@@ -54,4 +54,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [SQLiLite](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/SQLiLite.md)
 
+- [Scavenger Hunt]()
+
 ### Reversing
