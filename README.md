@@ -60,6 +60,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Secrets](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Secrets.md)
 
-- [Trickster]()
+- [Trickster](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Trickster.md)
 
 ### Reversing
