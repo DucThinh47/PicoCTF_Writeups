@@ -62,5 +62,5 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Trickster](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Trickster.md)
 
-- [Unminify]()
+- [Unminify](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Unminify.md)
 ### Reversing
