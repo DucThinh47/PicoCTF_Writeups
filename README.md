@@ -18,6 +18,8 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [First Find](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/General_Skills/First_Find.md)
 
+- [First Grep]()
+
 ### Forensics
 
 - [Disk, disk, sleuth!](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Forensics/Disk_disk_sleuth.md)
