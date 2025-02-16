@@ -16,6 +16,8 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Big Zip](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/General_Skills/Big_Zip.md)
 
+- [First Find]()
+
 ### Forensics
 
 - [Disk, disk, sleuth!](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Forensics/Disk_disk_sleuth.md)
