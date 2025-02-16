@@ -6,13 +6,13 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Reversing](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#reversing)
 
-- [Forensics]()
+- [Forensics](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main#forensics)
 
 - [Web exploitation](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main#web-exploitation)
 
 ### Forensics
 
-- [Disk, disk, sleuth!]()
+- [Disk, disk, sleuth!](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Forensics/Disk_disk_sleuth.md)
 
 ### Reversing
 
