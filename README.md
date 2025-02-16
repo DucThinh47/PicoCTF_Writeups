@@ -6,7 +6,7 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Reversing](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#reversing)
 
-- [Forensics](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main#forensics)
+- [Forensics](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#forensics)
 
 - [Web exploitation](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main#web-exploitation)
 
