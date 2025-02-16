@@ -18,7 +18,7 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Packets Primer](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Forensics/Packets_Primer.md)
 
-- [Sleuthkit Intro]()
+- [Sleuthkit Intro](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Forensics/Sleuthkit_Intro.md)
 
 ### Reversing
 
