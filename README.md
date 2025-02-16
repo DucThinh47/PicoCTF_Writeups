@@ -18,7 +18,7 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [First Find](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/General_Skills/First_Find.md)
 
-- [First Grep]()
+- [First Grep](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/General_Skills/First_Grep.md)
 
 ### Forensics
 
