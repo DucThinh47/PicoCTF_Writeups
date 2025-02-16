@@ -58,4 +58,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Search source](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Search_source.md)
 
+- [Secrets]()
+
 ### Reversing
