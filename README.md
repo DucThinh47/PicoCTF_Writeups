@@ -4,11 +4,17 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 ## Content Page
 
-- [Reversing](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#reversing)
+- [General Skills]()
 
 - [Forensics](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#forensics)
 
+- [Reversing](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#reversing)
+
 - [Web exploitation](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main#web-exploitation)
+
+### General Skills
+
+- [Big Zip]()
 
 ### Forensics
 
