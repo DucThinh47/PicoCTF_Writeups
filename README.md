@@ -76,6 +76,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [logon](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/logon.md)
 
-- [picobrowser]()
+- [picobrowser](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/picobrowser.md)
 
 ### Reversing
