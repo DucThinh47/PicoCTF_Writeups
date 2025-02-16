@@ -4,7 +4,7 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 ## Content Page
 
-- [General Skills]()
+- [General Skills](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#general-skills)
 
 - [Forensics](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#forensics)
 
@@ -14,7 +14,7 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 ### General Skills
 
-- [Big Zip]()
+- [Big Zip](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/General_Skills/Big_Zip.md)
 
 ### Forensics
 
