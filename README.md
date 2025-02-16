@@ -6,7 +6,7 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Web exploitation](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main#web-exploitation)
 
-- Reversing
+- [Reversing](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main/Reversing)
 
 ### Web exploitation
 
@@ -85,3 +85,5 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 - [where are the robots](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/where_are_the_robots.md)
 
 ### Reversing
+
+- [Safe Opener 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Safe_Opener_2.md)

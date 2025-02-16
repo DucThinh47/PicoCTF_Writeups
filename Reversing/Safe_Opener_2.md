@@ -1,20 +1,20 @@
 # Safe Opener 2
-![img]()
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image.png?raw=true)
 
 ### Solution
 
 Download file mà thử thách cung cấp: 
 
-![img](1)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image1.png?raw=true)
 
 Kiểm tra format file: 
 
-![img](2)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image2.png?raw=true)
 
 => Là 1 class Java. 
 
 Thử dùng lệnh **strings** để lấy ra các chuỗi trong file: 
 
-![img](3)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image3.png?raw=true)
 
 **Flag: picoCTF{SAf3_0p3n3rr_y0u_solv3d_it_de45efd6}**
