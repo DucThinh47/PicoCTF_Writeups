@@ -80,4 +80,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [some assembly required 1](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/some_assembly_required_1.md)
 
+- [some assembly required 2]()
+
 ### Reversing
