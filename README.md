@@ -4,9 +4,21 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 ## Content Page
 
+- [Reversing](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#reversing)
+
+- [Forensics]()
+
 - [Web exploitation](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main#web-exploitation)
 
-- [Reversing](https://github.com/DucThinh47/PicoCTF_Writeups/tree/main?tab=readme-ov-file#reversing)
+### Forensics
+
+- [Disk, disk, sleuth!]()
+
+### Reversing
+
+- [Safe Opener 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Safe_Opener_2.md)
+
+- [Transformation](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Transformation.md)
 
 ### Web exploitation
 
@@ -83,9 +95,3 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 - [some assembly required 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/some_assembly_required_2.md)
 
 - [where are the robots](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/where_are_the_robots.md)
-
-### Reversing
-
-- [Safe Opener 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Safe_Opener_2.md)
-
-- [Transformation](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Transformation.md)
