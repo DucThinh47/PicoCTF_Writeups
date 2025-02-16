@@ -1,11 +1,11 @@
 # Transformation
-![img](4)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image4.png?raw=true)
 
 ### Solution
 
 Download file **enc** mà thử thách cung cấp và xem nội dung: 
 
-![img](5)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image5.png?raw=true)
 
 => Nội dung bị mã hóa. 
 
@@ -37,10 +37,10 @@ Nếu flag = "ABCD" thì:
 
 => Viết 1 đoạn mã python để decode nội dung file enc:
 
-![img](6)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image6.png?raw=true)
 
 => Run code và tìm ra chuỗi đã được decode:
 
-![img](7)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image7.png?raw=true)
 
 **Flag: picoCTF{16_bits_inst34d_of_8_26684c20}**
