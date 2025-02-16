@@ -66,6 +66,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Web Decode](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web_Decode.md)
 
--[Who are you?](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Who_are_you.md)
+- [Who are you?](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Who_are_you.md)
 
 ### Reversing
