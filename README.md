@@ -48,6 +48,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Roboto Sans](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Roboto_Sans.md)
 
-- [SOAP]()
+- [SOAP](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/SOAP.md)
 
 ### Reversing
