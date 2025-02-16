@@ -52,6 +52,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [SQL Direct](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/SQL_Direct.md)
 
-- [SQLiLite]()
+- [SQLiLite](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/SQLiLite.md)
 
 ### Reversing
