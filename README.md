@@ -64,6 +64,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Unminify](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Unminify.md)
 
-- [Web Decode]()
+- [Web Decode](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web_Decode.md)
 
 ### Reversing
