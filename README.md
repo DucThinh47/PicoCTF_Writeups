@@ -14,7 +14,7 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Disk, disk, sleuth!](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Forensics/Disk_disk_sleuth.md)
 
-- [OperationOrchid]()
+- [OperationOrchid](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Forensics/OperationOrchid.md)
 
 ### Reversing
 
