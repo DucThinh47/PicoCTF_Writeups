@@ -68,6 +68,6 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [Who are you?](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Who_are_you.md)
 
-- [dont-use-client-side]()
+- [dont-use-client-side](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/dont_use_client_side.md)
 
 ### Reversing
