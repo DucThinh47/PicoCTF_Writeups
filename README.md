@@ -16,6 +16,8 @@ Tập trung giải các thử thách liên quan đến Web exploitation và Reve
 
 - [OperationOrchid](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Forensics/OperationOrchid.md)
 
+- [Packets Primer]()
+
 ### Reversing
 
 - [Safe Opener 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Safe_Opener_2.md)
