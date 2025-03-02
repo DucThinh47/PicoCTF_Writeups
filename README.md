@@ -1,6 +1,6 @@
 # PicoCTF_Writeups
 
-Tập trung giải các thử thách liên quan đến Web exploitation và Reversing trên PicoCTF.
+Giải các thử thách trên picoCTF.
 
 ## Content Page
 
