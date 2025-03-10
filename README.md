@@ -40,7 +40,7 @@ Giải các thử thách trên picoCTF.
 
 - [WinAntiDbg0x100](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/WinAntiDbg0x100.md)
 
-- [WinAntiDbg0x200]()
+- [WinAntiDbg0x200](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/WinAntiDbg0x200.md)
 
 ### Web exploitation
 
