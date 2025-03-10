@@ -38,7 +38,7 @@ Giải các thử thách trên picoCTF.
 
 - [Transformation](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Transformation.md)
 
-- [WinAntiDbg0x100]()
+- [WinAntiDbg0x100](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/WinAntiDbg0x100.md)
 
 ### Web exploitation
 
