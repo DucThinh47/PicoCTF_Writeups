@@ -42,6 +42,8 @@ Giải các thử thách trên picoCTF.
 
 - [WinAntiDbg0x200](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/WinAntiDbg0x200.md)
 
+- [packer]()
+
 ### Web exploitation
 
 - [Bookmarklet](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Bookmarklet.md)
