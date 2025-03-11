@@ -44,7 +44,7 @@ Giải các thử thách trên picoCTF.
 
 - [packer](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/packer.md)
 
-- [Picker I]()
+- [Picker I](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Picker_I.md)
 
 ### Web exploitation
 

@@ -1,38 +1,38 @@
 # Picker I
 
-![img](42)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image42.png?raw=true)
 
 Kết nối chương trình với netcat: 
 
-![img](43)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image43.png?raw=true)
 
-![img](44)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image44.png?raw=true)
 
 Download source code: 
 
-![img](45)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image45.png?raw=true)
 
 Xem source code:
 
 Hàm main:
 
-![img](46)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image46.png?raw=true)
 
 Hàm getRandomNumber: 
 
-![img](47)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image47.png?raw=true)
 
 Hàm win:
 
-![img](48)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image48.png?raw=true)
 
 Kết nối lại netcat, lần này thay vì nhập hàm getRandomNumber, thử nhập hàm win: 
 
-![img](49)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image49.png?raw=true)
 
 => Tìm được giá trị được mã hóa dưới dạng hex, thử giải mã bằng Cyberchef: 
 
-![img](50)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image50.png?raw=true)
 
 => **Flag: picoCTF{4_d14m0nd_1n_7h3_r0ugh_ce4b5d5b}**
 
