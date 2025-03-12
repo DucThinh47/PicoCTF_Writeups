@@ -48,6 +48,8 @@ Giải các thử thách trên picoCTF.
 
 - [Picker II](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Picker_II.md)
 
+- [Picker III]()
+
 ### Web exploitation
 
 - [Bookmarklet](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Bookmarklet.md)
