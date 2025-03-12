@@ -46,6 +46,8 @@ Giải các thử thách trên picoCTF.
 
 - [Picker I](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Picker_I.md)
 
+- [Picker II](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Picker_II.md)
+
 ### Web exploitation
 
 - [Bookmarklet](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Bookmarklet.md)
