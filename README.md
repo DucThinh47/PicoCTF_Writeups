@@ -50,7 +50,7 @@ Giải các thử thách trên picoCTF.
 
 - [Picker III](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Picker_III.md)
 
-- [GDB baby step 1]()
+- [GDB baby step 1](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/GDB_baby_step_1.md)
 
 ### Web exploitation
 
