@@ -1,28 +1,28 @@
 # GDB baby step 2
 
-![img](83)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image83.png?raw=true)
 
 Download file: 
 
-![img](84)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image84.png?raw=true)
 
 Kiểm tra file format: 
 
-![img](85)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image85.png?raw=true)
 
 Sử dụng `gdb` để dịch ngược file: 
 
-![img](86)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image86.png?raw=true)
 
 Liệt kê các hàm trong file bằng lệnh `info functions`: 
 
-![img](87)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image87.png?raw=true)
 
 Theo mô tả thử thách, chú ý hàm `main` có địa chỉ `0x401106`.
 
 Sử dụng lệnh `disassemble main` xem mã Assembly của hàm `main`: 
 
-![img](88)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image88.png?raw=true)
 
 Phân tích luồng thực thi của hàm:
 
@@ -104,11 +104,11 @@ Phân tích luồng thực thi của hàm:
 
 Đặt `breakpoint` tại địa chỉ lệnh này và chạy chương trình, chương trình sẽ dừng lại ngay trước khi thực thi lệnh `pop %rbp`:
 
-![img](89)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image89.png?raw=true)
 
-Tiếp theo kiểm tra giá trị của thanh ghi `EAX`:
+Tiếp theo kiểm tra giá trị của thanh ghi `EAX`, dùng lệnh `info registers eax`:
 
-![img](90)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image90.png?raw=true)
 
 => **Flag: picoCTF{307019}**
 

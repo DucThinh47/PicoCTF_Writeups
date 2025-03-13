@@ -52,7 +52,7 @@ Giải các thử thách trên picoCTF.
 
 - [GDB baby step 1](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/GDB_baby_step_1.md)
 
-- [GDB baby step 2]()
+- [GDB baby step 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/GDB_baby_step_2.md)
 
 ### Web exploitation
 
