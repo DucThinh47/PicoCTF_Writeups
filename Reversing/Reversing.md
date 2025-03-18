@@ -616,3 +616,68 @@ Lưu và chạy lại chương trình:
 
 => **Flag: picoCTF{0x200_debug_f0r_Win_7853c59f}**
 
+### GDB baby step 4
+
+![img](105)
+
+Download file debug: 
+
+![img](106)
+
+Kiểm tra định dạng file này: 
+
+![img](107)
+
+=> File có dạng `ELF 64-bit LSB`: là file thực thi 64-bit ở định dạng ELF và `Not stripped`: file chưa bị xóa thông tin debug, có thể phân tích.
+
+Mở file bằng `gdb`: 
+
+![img](108)
+
+Xem danh sách các hàm: 
+
+![img](109)
+
+Để ý hàm `func1` và `main`, mô tả thử thách ám chỉ đến một hàm nhân giá trị của EAX với một hằng số. Đây có thể là chức năng của hàm `func1`. 
+
+Chạy chương trình và quan sát sự khác biệt giữa `step into` và `step over` trong hành động. Đặt kiểu hiển thị mã lệnh thành Intel:
+
+![img](110)
+
+Đặt `breakpoint` tại hàm `main`:
+
+![img](111)
+
+Thiết lập giao diện dễ đọc hơn bằng lệnh: 
+
+    layout asm
+
+![img](112)
+
+Chạy chương trình:
+
+![img](113)
+
+=> Chương trình sẽ dừng tại điểm bắt đầu của hàm `main`.
+
+Sử dụng lệnh `ni` (Next Instruction) để di chuyển qua các lệnh một cách tuần tự, để ý khi dùng `ni` liên tục, chương trình sẽ bỏ qua lệnh `call`, lệnh mà sẽ bước vào hàm `func1`:
+
+![img](114)
+
+Vì vậy khi đến lệnh `call`, sử dụng lệnh `si` (Step Into) để bước vào hàm `func1`:
+
+![img](115)
+
+Lệnh `imul` trong hàm `func1` sẽ thực hiện phép nhân: 
+
+    EAX = EAX * 0x3269
+
+Chuyển đổi giá trị hex sang thập phân bằng lệnh: 
+
+    print/d 0x3269
+    
+Kết quả là số thập phân tương ứng với hằng số hex `0x3269`.
+
+![img](116)
+
+=> **Flag: picoCTF{12905}**
