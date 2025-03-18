@@ -24,7 +24,7 @@
 
 - [GDB baby step 3](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#gdb-baby-step-3)
 
-- [GDB baby step 4]()
+- [GDB baby step 4](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#gdb-baby-step-4)
 
 ### GDB baby step 1
 
@@ -618,55 +618,55 @@ Lưu và chạy lại chương trình:
 
 ### GDB baby step 4
 
-![img](105)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image105.png?raw=true)
 
 Download file debug: 
 
-![img](106)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image106.png?raw=true)
 
 Kiểm tra định dạng file này: 
 
-![img](107)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image107.png?raw=true)
 
 => File có dạng `ELF 64-bit LSB`: là file thực thi 64-bit ở định dạng ELF và `Not stripped`: file chưa bị xóa thông tin debug, có thể phân tích.
 
 Mở file bằng `gdb`: 
 
-![img](108)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image108.png?raw=true)
 
 Xem danh sách các hàm: 
 
-![img](109)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image109.png?raw=true)
 
 Để ý hàm `func1` và `main`, mô tả thử thách ám chỉ đến một hàm nhân giá trị của EAX với một hằng số. Đây có thể là chức năng của hàm `func1`. 
 
 Chạy chương trình và quan sát sự khác biệt giữa `step into` và `step over` trong hành động. Đặt kiểu hiển thị mã lệnh thành Intel:
 
-![img](110)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image110.png?raw=true)
 
 Đặt `breakpoint` tại hàm `main`:
 
-![img](111)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image111.png?raw=true)
 
 Thiết lập giao diện dễ đọc hơn bằng lệnh: 
 
     layout asm
 
-![img](112)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image112.png?raw=true)
 
 Chạy chương trình:
 
-![img](113)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image113.png?raw=true)
 
 => Chương trình sẽ dừng tại điểm bắt đầu của hàm `main`.
 
 Sử dụng lệnh `ni` (Next Instruction) để di chuyển qua các lệnh một cách tuần tự, để ý khi dùng `ni` liên tục, chương trình sẽ bỏ qua lệnh `call`, lệnh mà sẽ bước vào hàm `func1`:
 
-![img](114)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image114.png?raw=true)
 
 Vì vậy khi đến lệnh `call`, sử dụng lệnh `si` (Step Into) để bước vào hàm `func1`:
 
-![img](115)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image115.png?raw=true)
 
 Lệnh `imul` trong hàm `func1` sẽ thực hiện phép nhân: 
 
@@ -678,6 +678,6 @@ Chuyển đổi giá trị hex sang thập phân bằng lệnh:
     
 Kết quả là số thập phân tương ứng với hằng số hex `0x3269`.
 
-![img](116)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image116.png?raw=true)
 
 => **Flag: picoCTF{12905}**

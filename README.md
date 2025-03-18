@@ -56,7 +56,7 @@ Giải các thử thách trên picoCTF.
 
 - [GDB baby step 3](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#gdb-baby-step-3)
 
-- [GDB baby step 4]()
+- [GDB baby step 4](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#gdb-baby-step-4)
 
 ### Web exploitation
 
