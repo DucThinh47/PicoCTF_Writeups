@@ -34,27 +34,29 @@ Giải các thử thách trên picoCTF.
 
 ### Reversing
 
-- [Safe Opener 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Safe_Opener_2.md)
+- [Safe Opener 2]()
 
-- [Transformation](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Transformation.md)
+- [Transformation]()
 
-- [WinAntiDbg0x100](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/WinAntiDbg0x100.md)
+- [WinAntiDbg0x100]()
 
-- [WinAntiDbg0x200](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/WinAntiDbg0x200.md)
+- [WinAntiDbg0x200]()
 
-- [packer](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/packer.md)
+- [packer]()
 
-- [Picker I](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Picker_I.md)
+- [Picker I]()
 
-- [Picker II](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Picker_II.md)
+- [Picker II]()
 
-- [Picker III](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Picker_III.md)
+- [Picker III]()
 
-- [GDB baby step 1](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/GDB_baby_step_1.md)
+- [GDB baby step 1]()
 
-- [GDB baby step 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/GDB_baby_step_2.md)
+- [GDB baby step 2]()
 
-- [GDB baby step 3](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/GDB_baby_step_3.md)
+- [GDB baby step 3]()
+
+- [GDB baby step 4]()
 
 ### Web exploitation
 
