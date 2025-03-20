@@ -28,7 +28,7 @@
 
 - [ASCII FTW](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#ascii-ftw)
 
-- [timer]()
+- [timer](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#timer)
 
 ### GDB baby step 1
 
@@ -738,29 +738,29 @@ Thử dùng Cyberchef, giải mã chuỗi hex này:
 
 ### timer
 
-![img](126)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image126.png?raw=true)
 
 Download file: 
 
-![img](127)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image127.png?raw=true)
 
 Kiểm tra file format: 
 
-![img](128)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image128.png?raw=true)
 
-Là file .apk. Thử giải nén file này bằng lệnh:
+Là file `.apk`. Thử giải nén file này bằng lệnh:
 
     unzip timer.apk
 
-![img](129)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image129.png?raw=true)
 
-Ra được một loạt file và folder khác nhau. Thử tìm kiếm chuỗi picoCTF trong tất cả các file và folder: 
+Ra được một loạt file và folder khác nhau. Thử tìm kiếm chuỗi `picoCTF` trong tất cả các file và folder: 
 
-![img](130)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image130.png?raw=true)
 
-Có vẻ flag nằm ở file classes3.dex. Thử lọc ra chuỗi có chứa picoCTF trong file này: 
+Có vẻ flag nằm ở file `classes3.dex`. Thử lọc ra chuỗi có chứa `picoCTF` trong file này: 
 
-![img](131)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image131.png?raw=true)
 
 => **Flag: picoCTF{t1m3r_r3v3rs3d_succ355fully_17496}**
 

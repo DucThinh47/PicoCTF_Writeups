@@ -60,7 +60,7 @@ Giải các thử thách trên picoCTF.
 
 - [ASCII FTW](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#ascii-ftw)
 
-- [timer]()
+- [timer](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#timer)
 
 ### Web exploitation
 
