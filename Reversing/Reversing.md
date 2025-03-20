@@ -686,5 +686,55 @@ Kết quả là số thập phân tương ứng với hằng số hex `0x3269`.
 
 ### ASCII FTW
 
-![img]()
+![img](117)
+
+Download file: 
+
+![img](118)
+
+Kiểm tra format file này: 
+
+![img](119)
+
+Là file `ELF` - Executable and Linkable Format, một định dạng `tệp nhị phân` phổ biến chứa các chương trình hoặc thư viện phần mềm, chủ yếu được sử dụng cho các hệ điều hành giống `Unix`. Bằng cách giải mã đúng định dạng này, có thể tìm ra flag.
+
+Hiểu rõ tệp `ELF` là rất quan trọng vì nó cung cấp cái nhìn sâu sắc về `cách chương trình hoạt động` và cuối cùng là những manh mối để giải mã flag. Tệp `ELF` chứa mọi thứ mà hệ thống cần để chuẩn bị thực thi một chương trình, bao gồm các hướng dẫn ngôn ngữ máy, cách sắp xếp bộ nhớ và điểm bắt đầu của chương trình.
+
+Tuy nhiên, các tệp này không dễ đọc đối với con người – chúng được viết dưới dạng `nhị phân`, một ngôn ngữ bao gồm các con số `1` và `0` mà máy móc hiểu được, chứ không phải con người.
+
+Thử thực thi chương trình này: 
+
+![img](120)
+
+Tìm được gợi ý `The flag starts with 70`.
+
+Sử dụng `gdb` để bắt đầu debug: 
+
+![img](121)
+
+Liệt kê các hàm có trong chương trình: 
+
+![img](122)
+
+Khi một chương trình được biên dịch, nó sẽ chuyển từ mã nguồn (C, C++, Python,...) sang mã máy (dạng nhị phân - các bit 0 và 1). Quá trình `disassemble` là việc dịch ngược từ mã máy thành mã assembly để phân tích hoặc kiểm tra.
+
+Thử disassemble hàm `main`: 
+
+![img](123)
+
+![img](124)
+
+Để ý các lệnh movb, các lệnh này sẽ lưu trữ các giá trị hex vào vùng nhớ cụ thể, từ gợi ý thu được từ việc thực thi chương trình `The flag starts with 70`, trích xuất được dãy hex: 
+
+    7069636f4354467b41534349495f49535f454153595f38393630463041467d
+
+Thử dùng Cyberchef, giải mã chuỗi hex này: 
+
+![img](125)
+
+=> **Flag: picoCTF{ASCII_IS_EASY_8960F0AF}**
+
+
+
+
 
