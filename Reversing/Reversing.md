@@ -28,6 +28,8 @@
 
 - [ASCII FTW](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#ascii-ftw)
 
+- [timer]()
+
 ### GDB baby step 1
 
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image76.png?raw=true)
@@ -733,6 +735,35 @@ Thử dùng Cyberchef, giải mã chuỗi hex này:
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image125.png?raw=true)
 
 => **Flag: picoCTF{ASCII_IS_EASY_8960F0AF}**
+
+### timer
+
+![img](126)
+
+Download file: 
+
+![img](127)
+
+Kiểm tra file format: 
+
+![img](128)
+
+Là file .apk. Thử giải nén file này bằng lệnh:
+
+    unzip timer.apk
+
+![img](129)
+
+Ra được một loạt file và folder khác nhau. Thử tìm kiếm chuỗi picoCTF trong tất cả các file và folder: 
+
+![img](130)
+
+Có vẻ flag nằm ở file classes3.dex. Thử lọc ra chuỗi có chứa picoCTF trong file này: 
+
+![img](131)
+
+=> **Flag: picoCTF{t1m3r_r3v3rs3d_succ355fully_17496}**
+
 
 
 
