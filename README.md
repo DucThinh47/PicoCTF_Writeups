@@ -58,7 +58,7 @@ Giải các thử thách trên picoCTF.
 
 - [GDB baby step 4](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#gdb-baby-step-4)
 
-- [ASCII FTW]()
+- [ASCII FTW](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#ascii-ftw)
 
 ### Web exploitation
 

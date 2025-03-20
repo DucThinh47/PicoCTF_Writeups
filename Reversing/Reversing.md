@@ -26,7 +26,7 @@
 
 - [GDB baby step 4](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#gdb-baby-step-4)
 
-- [ASCII FTW]()
+- [ASCII FTW](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#ascii-ftw)
 
 ### GDB baby step 1
 
@@ -686,15 +686,15 @@ Kết quả là số thập phân tương ứng với hằng số hex `0x3269`.
 
 ### ASCII FTW
 
-![img](117)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image117.png?raw=true)
 
 Download file: 
 
-![img](118)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image118.png?raw=true)
 
 Kiểm tra format file này: 
 
-![img](119)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image119.png?raw=true)
 
 Là file `ELF` - Executable and Linkable Format, một định dạng `tệp nhị phân` phổ biến chứa các chương trình hoặc thư viện phần mềm, chủ yếu được sử dụng cho các hệ điều hành giống `Unix`. Bằng cách giải mã đúng định dạng này, có thể tìm ra flag.
 
@@ -704,25 +704,25 @@ Tuy nhiên, các tệp này không dễ đọc đối với con người – ch�
 
 Thử thực thi chương trình này: 
 
-![img](120)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image120.png?raw=true)
 
 Tìm được gợi ý `The flag starts with 70`.
 
 Sử dụng `gdb` để bắt đầu debug: 
 
-![img](121)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image121.png?raw=true)
 
 Liệt kê các hàm có trong chương trình: 
 
-![img](122)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image122.png?raw=true)
 
 Khi một chương trình được biên dịch, nó sẽ chuyển từ mã nguồn (C, C++, Python,...) sang mã máy (dạng nhị phân - các bit 0 và 1). Quá trình `disassemble` là việc dịch ngược từ mã máy thành mã assembly để phân tích hoặc kiểm tra.
 
 Thử disassemble hàm `main`: 
 
-![img](123)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image123.png?raw=true)
 
-![img](124)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image124.png?raw=true)
 
 Để ý các lệnh movb, các lệnh này sẽ lưu trữ các giá trị hex vào vùng nhớ cụ thể, từ gợi ý thu được từ việc thực thi chương trình `The flag starts with 70`, trích xuất được dãy hex: 
 
@@ -730,7 +730,7 @@ Thử disassemble hàm `main`:
 
 Thử dùng Cyberchef, giải mã chuỗi hex này: 
 
-![img](125)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image125.png?raw=true)
 
 => **Flag: picoCTF{ASCII_IS_EASY_8960F0AF}**
 
