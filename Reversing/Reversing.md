@@ -26,6 +26,8 @@
 
 - [GDB baby step 4](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#gdb-baby-step-4)
 
+- [ASCII FTW]()
+
 ### GDB baby step 1
 
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image76.png?raw=true)
@@ -681,3 +683,8 @@ Kết quả là số thập phân tương ứng với hằng số hex `0x3269`.
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image116.png?raw=true)
 
 => **Flag: picoCTF{12905}**
+
+### ASCII FTW
+
+![img]()
+
