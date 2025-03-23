@@ -32,6 +32,8 @@
 
 - [Reverse](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#reverse)
 
+- [unpackme.py]
+
 ### GDB baby step 1
 
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image76.png?raw=true)
@@ -785,6 +787,63 @@ Thử liệt kê các chuỗi trong file có chứa cụm `picoCTF`:
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image135.png?raw=true)
 
 -> **Flag: picoCTF{3lf_r3v3r5ing_succe55ful_9ae85289}**
+
+### unpackme.py
+
+![img](136)
+
+Download file: 
+
+![img](137)
+
+Nội dung chương trình python này: 
+
+    import base64
+    from cryptography.fernet import Fernet
+
+
+
+    payload = b'gAAAAABkzWGWvEp8gLI9AcIn5o-ahDUwkTvM6EwF7YYMZlE-_Gf9rcNYjxIgX4b0ltY6bcxKarib2ds6POclRwCwhsRb1LOXVt4Q3ePtMY4BmHFFZlIHLk05CjwigT7hiI9p3>
+
+    key_str = 'correctstaplecorrectstaplecorrec'
+    key_base64 = base64.b64encode(key_str.encode())
+    f = Fernet(key_base64)
+    plain = f.decrypt(payload)
+    exec(plain.decode())
+
+Chương trình Python này sử dụng thư viện `cryptography` để giải mã một payload được mã hóa bằng thuật toán `Fernet`.
+
+Payload đã được mã hóa dưới dạng `chuỗi byte`:
+
+    payload = b'gAAAAABkzWGWvEp8gLI9AcIn5o-ahDUwkTvM6EwF7YYMZlE-_Gf9rcNYjxIgX4b0ltY6bcxKarib2ds6POclRwCwhsRb1LOXVt4Q3ePtMY4BmHFFZlIHLk05CjwigT7hiI9p3>'
+
+Tạo khóa từ chuỗi ký tự, khóa `(key_str)` có độ dài 32 ký tự, khóa này được mã hóa sang dạng `Base64` để tạo thành một khóa hợp lệ cho `Fernet`.
+
+    key_str = 'correctstaplecorrectstaplecorrec'
+    key_base64 = base64.b64encode(key_str.encode())
+
+Giải mã payload:
+
+    f = Fernet(key_base64)
+    plain = f.decrypt(payload)
+
+Thực thi mã sau khi giải mã:
+
+    exec(plain.decode())
+
+Như vậy dòng cuối cùng của chương trình thực thi một đoạn mã được chuyển giao dưới dạng tham số, là kết quả của `plain.decode()`. Nếu có thể nhìn thấy chuỗi này trước khi hàm `exec()` được gọi, có thể lấy flag.
+
+Chỉnh sửa chương trình để in ra kết quả của `plain.decode()`:
+
+![img](138)
+
+Chạy chương trình: 
+
+![img](139)
+
+-> **Flag: picoCTF{175_chr157m45_85f5d0ac}**
+
+
 
 
 
