@@ -36,6 +36,8 @@
 
 - [Safe Opener](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#safe-opener)
 
+- [patchme.py]()
+
 ### GDB baby step 1
 
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image76.png?raw=true)
@@ -899,6 +901,23 @@ Nội dung chương trình java:
 
 -> **Flag: picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}**
 
+### patchme.py
+
+![img](143)
+
+Download encrypted flag và chương trình python vào cùng một thư mục: 
+
+![img](144)
+
+Xem thử nội dung 2 file này: 
+
+![img](145)
+
+Từ đoạn mã python, nhận thấy chương trình sẽ so sánh password nhập vào với chuỗi `ak98-=90adfjhgj321sleuth9000`, chạy chương trình và thử nhập password là chuỗi này: 
+
+![img](146)
+
+-> **Flag: picoCTF{p47ch1ng_l1f3_h4ck_c4a4688b}**
 
 
 
