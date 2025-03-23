@@ -34,7 +34,7 @@
 
 - [unpackme.py](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#unpackmepy)
 
-- [Safe Opener]()
+- [Safe Opener](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#safe-opener)
 
 ### GDB baby step 1
 
@@ -847,11 +847,11 @@ Chạy chương trình:
 
 ### Safe Opener
 
-![img](140)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image140.png?raw=true)
 
 Download chương trình: 
 
-![img](141)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image141.png?raw=true)
 
 Nội dung chương trình java: 
 
@@ -895,7 +895,7 @@ Nội dung chương trình java:
 
 Đoạn chương trình sẽ check xem password nhập vào có giống với chuỗi được mã hóa Base64 `cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz` hay không. Thử giải mã chuỗi Base64 này: 
 
-![img](142)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image142.png?raw=true)
 
 -> **Flag: picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}**
 
