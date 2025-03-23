@@ -32,7 +32,7 @@
 
 - [Reverse](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#reverse)
 
-- [unpackme.py]
+- [unpackme.py](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#unpackmepy)
 
 ### GDB baby step 1
 
@@ -790,11 +790,11 @@ Thử liệt kê các chuỗi trong file có chứa cụm `picoCTF`:
 
 ### unpackme.py
 
-![img](136)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image136.png?raw=true)
 
 Download file: 
 
-![img](137)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image137.png?raw=true)
 
 Nội dung chương trình python này: 
 
@@ -835,11 +835,11 @@ Như vậy dòng cuối cùng của chương trình thực thi một đoạn mã
 
 Chỉnh sửa chương trình để in ra kết quả của `plain.decode()`:
 
-![img](138)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image138.png?raw=true)
 
 Chạy chương trình: 
 
-![img](139)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image139.png?raw=true)
 
 -> **Flag: picoCTF{175_chr157m45_85f5d0ac}**
 
