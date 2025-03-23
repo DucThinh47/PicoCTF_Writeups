@@ -66,6 +66,8 @@ Giải các thử thách trên picoCTF.
 
 - [unpackme.py](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#unpackmepy)
 
+- [Safe Opener]()
+
 ### Web exploitation
 
 - [Bookmarklet](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Bookmarklet.md)

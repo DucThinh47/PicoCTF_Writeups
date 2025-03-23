@@ -34,6 +34,8 @@
 
 - [unpackme.py](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#unpackmepy)
 
+- [Safe Opener]()
+
 ### GDB baby step 1
 
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image76.png?raw=true)
@@ -842,6 +844,61 @@ Chạy chương trình:
 ![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image139.png?raw=true)
 
 -> **Flag: picoCTF{175_chr157m45_85f5d0ac}**
+
+### Safe Opener
+
+![img](140)
+
+Download chương trình: 
+
+![img](141)
+
+Nội dung chương trình java: 
+
+    import java.io.*;
+    import java.util.*;  
+    public class SafeOpener {
+        public static void main(String args[]) throws IOException {
+            BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+            Base64.Encoder encoder = Base64.getEncoder();
+            String encodedkey = "";
+            String key = "";
+            int i = 0;
+            boolean isOpen;
+
+            while (i < 3) {
+                System.out.print("Enter password for the safe: ");
+                key = keyboard.readLine();
+                encodedkey = encoder.encodeToString(key.getBytes());
+                System.out.println(encodedkey);
+                isOpen = openSafe(encodedkey);
+                if (!isOpen) {
+                    System.out.println("You have  " + (2 - i) + " attempt(s) left");
+                    i++;
+                    continue;
+                }
+                break;
+            }
+        }
+        public static boolean openSafe(String password) {
+            String encodedkey = "cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz";
+            if (password.equals(encodedkey)) {
+                System.out.println("Sesame open");
+                return true;
+            }
+            else {
+                System.out.println("Password is incorrect\n");
+                return false;
+            }
+        }
+    }
+
+Đoạn chương trình sẽ check xem password nhập vào có giống với chuỗi được mã hóa Base64 `cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz` hay không. Thử giải mã chuỗi Base64 này: 
+
+![img](142)
+
+-> **Flag: picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}**
+
 
 
 
