@@ -68,7 +68,7 @@ Giải các thử thách trên picoCTF.
 
 - [Safe Opener](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#safe-opener)
 
-- [patchme.py]()
+- [patchme.py](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#patchmepy)
 
 ### Web exploitation
 

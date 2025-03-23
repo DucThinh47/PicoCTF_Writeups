@@ -903,19 +903,19 @@ Nội dung chương trình java:
 
 ### patchme.py
 
-![img](143)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image143.png?raw=true)
 
 Download encrypted flag và chương trình python vào cùng một thư mục: 
 
-![img](144)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image144.png?raw=true)
 
 Xem thử nội dung 2 file này: 
 
-![img](145)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image145.png?raw=true)
 
 Từ đoạn mã python, nhận thấy chương trình sẽ so sánh password nhập vào với chuỗi `ak98-=90adfjhgj321sleuth9000`, chạy chương trình và thử nhập password là chuỗi này: 
 
-![img](146)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image146.png?raw=true)
 
 -> **Flag: picoCTF{p47ch1ng_l1f3_h4ck_c4a4688b}**
 
