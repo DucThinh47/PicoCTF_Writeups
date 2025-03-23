@@ -62,7 +62,7 @@ Giải các thử thách trên picoCTF.
 
 - [timer](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#timer)
 
-- [Reverse]()
+- [Reverse](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#reverse)
 
 ### Web exploitation
 

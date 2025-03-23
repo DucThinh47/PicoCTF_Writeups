@@ -30,7 +30,7 @@
 
 - [timer](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#timer)
 
-- [Reverse]()
+- [Reverse](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/Reversing.md#reverse)
 
 ### GDB baby step 1
 
@@ -768,21 +768,21 @@ Có vẻ flag nằm ở file `classes3.dex`. Thử lọc ra chuỗi có chứa `
 
 ### Reverse
 
-![img](132)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image132.png?raw=true)
 
 Download file: 
 
-![img](133)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image133.png?raw=true)
 
 Kiểm tra file format: 
 
-![img](134)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image134.png?raw=true)
 
 -> Là file ELF - một định dạng `tệp nhị phân` phổ biến chứa các chương trình hoặc thư viện phần mềm, chủ yếu được sử dụng cho các hệ điều hành giống `Unix`. 
 
 Thử liệt kê các chuỗi trong file có chứa cụm `picoCTF`:
 
-![img](135)
+![img](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Reversing/images/image135.png?raw=true)
 
 -> **Flag: picoCTF{3lf_r3v3r5ing_succe55ful_9ae85289}**
 
