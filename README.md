@@ -73,4 +73,4 @@ Giải các thử thách trên picoCTF.
 - [some assembly required 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/some_assembly_required_2.md)
 - [where are the robots](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/where_are_the_robots.md)
 - [SSTI1](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/SSTI1.md#ssti1)
-- [Cookie Monster Secret Recipe]()
+- [Cookie Monster Secret Recipe](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Cookie_Monster_Secret_Recipe.md#cookie-monster-secret-recipe)
