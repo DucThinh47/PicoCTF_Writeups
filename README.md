@@ -74,3 +74,4 @@ Giải các thử thách trên picoCTF.
 - [where are the robots](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/where_are_the_robots.md)
 - [SSTI1](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/SSTI1.md#ssti1)
 - [Cookie Monster Secret Recipe](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Cookie_Monster_Secret_Recipe.md#cookie-monster-secret-recipe)
+- [n0s4n1ty 1]()
