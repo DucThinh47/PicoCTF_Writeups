@@ -81,3 +81,4 @@ Giải các thử thách trên picoCTF.
 - [WebSockFish](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/WebSockFish.md#websockfish)
 - [Apriti sesamo](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Apriti_sesamo.md#apriti-sesamo)
 - [caas](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/caas.md#caas)
+- [Super Serial]()
