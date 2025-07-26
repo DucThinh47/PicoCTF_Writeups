@@ -76,4 +76,4 @@ Giải các thử thách trên picoCTF.
 - [Cookie Monster Secret Recipe](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Cookie_Monster_Secret_Recipe.md#cookie-monster-secret-recipe)
 - [n0s4n1ty 1](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/n0s4n1ty_1.md#n0s4n1ty-1)
 - [head-dump](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/head_dump.md#head-dump)
-- [SSTI2]()
+- [SSTI2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/SSTI2.md#ssti2)
