@@ -78,4 +78,4 @@ Giải các thử thách trên picoCTF.
 - [head-dump](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/head_dump.md#head-dump)
 - [SSTI2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/SSTI2.md#ssti2)
 - [3v@l](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/3v%40l.md#3vl)
-- [WebSockFish]()
+- [WebSockFish](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/WebSockFish.md#websockfish)
