@@ -85,3 +85,4 @@ Giải các thử thách trên picoCTF.
 - [Most Cookies](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Most_Cookies.md#most-cookies)
 - [It is my Birthday](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/It_is_my_Birthday.md#it-is-my-birthday)
 - [Web Gauntlet](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web_Gauntlet.md#web-gauntlet)
+- [JaWT Scratchpad]()
