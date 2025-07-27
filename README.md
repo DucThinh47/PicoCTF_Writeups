@@ -84,4 +84,4 @@ Giải các thử thách trên picoCTF.
 - [Super Serial](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Super_Serial.md#super-serial)
 - [Most Cookies](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Most_Cookies.md#most-cookies)
 - [It is my Birthday](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/It_is_my_Birthday.md#it-is-my-birthday)
-- [Web Gauntlet]()
+- [Web Gauntlet](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web_Gauntlet.md#web-gauntlet)
