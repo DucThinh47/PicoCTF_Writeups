@@ -87,5 +87,5 @@ Giải các thử thách trên picoCTF.
 - [Web Gauntlet](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web_Gauntlet.md#web-gauntlet)
 - [JaWT Scratchpad](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/JaWT_Scratchpad.md#jawt-scratchpad)
 - [Web Gauntlet 2](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web%20Gauntlet%202.md#web-gauntlet-2)
-- [Web Gauntlet 3]()
-- [JAuth]()
+- [Web Gauntlet 3](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web%20Gauntlet%203.md#web-gauntlet-3)
+- [JAuth](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/JAuth.md#jauth)
