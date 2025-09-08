@@ -86,3 +86,4 @@ Giải các thử thách trên picoCTF.
 - [It is my Birthday](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/It_is_my_Birthday.md#it-is-my-birthday)
 - [Web Gauntlet](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web_Gauntlet.md#web-gauntlet)
 - [JaWT Scratchpad](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/JaWT_Scratchpad.md#jawt-scratchpad)
+- [Web Gauntlet 2]()
