@@ -90,4 +90,4 @@ Giải các thử thách trên picoCTF.
 - [Web Gauntlet 3](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Web%20Gauntlet%203.md#web-gauntlet-3)
 - [JAuth](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/JAuth.md#jauth)
 - [Pachinko](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Pachinko.md#pachinko)
-- [Java Script Kiddie]()
+- [Java Script Kiddie](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Java_Script_Kiddie.md#java-script-kiddie)
