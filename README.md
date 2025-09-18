@@ -91,4 +91,4 @@ Giải các thử thách trên picoCTF.
 - [JAuth](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/JAuth.md#jauth)
 - [Pachinko](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Pachinko.md#pachinko)
 - [Java Script Kiddie](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Java_Script_Kiddie.md#java-script-kiddie)
-- [notepad]()
+- [notepad](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/notepad.md#nodepad)
