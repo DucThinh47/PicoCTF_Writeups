@@ -92,4 +92,4 @@ Giải các thử thách trên picoCTF.
 - [Pachinko](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Pachinko.md#pachinko)
 - [Java Script Kiddie](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Java_Script_Kiddie.md#java-script-kiddie)
 - [notepad](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/notepad.md#nodepad)
-- [Some Assembly Required 3]()
+- [Some Assembly Required 3](https://github.com/DucThinh47/PicoCTF_Writeups/blob/main/Web_Exploitation/Some-Assembly-Required-3.md#some-assembly-required-3)
